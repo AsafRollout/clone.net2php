@@ -3,12 +3,10 @@
 type: experiment
 name: flag target groups any
 flag: flagTargetGroupsAny
-platforms:
-  - name: .NET
-    conditions:
-      - group:
-          name:
-            - TG operand 1
-            - TG operand 2
-        value: true
-    value: false
+conditions:
+  - group:
+      name:
+        - TG operand 1
+        - TG operand 2
+    value: true
+value: false
