@@ -9,9 +9,8 @@ availableValues:
   - Green
   - Blue
 platforms:
-  - name: .NET
-    conditions:
-      - group:
-          name: TG variant dep with context
-        value: Green
-    value: []
+  conditions:
+    - group:
+        name: TG variant dep with context
+      value: Green
+  value: []
