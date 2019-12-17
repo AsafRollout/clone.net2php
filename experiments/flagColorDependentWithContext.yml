@@ -9,7 +9,7 @@ availableValues:
   - Green
   - Blue
 platforms:
-  - name: .NET
+  - name: PHP
     conditions:
       - dependency:
           flag: flagColorsForDependency
