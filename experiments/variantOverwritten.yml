@@ -7,6 +7,4 @@ availableValues:
   - red
   - green
   - blue
-platforms:
-  - name: .NET
-    value: green
+value: green
