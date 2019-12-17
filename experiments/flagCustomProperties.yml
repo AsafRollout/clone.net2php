@@ -3,10 +3,8 @@
 type: experiment
 name: flag custom properties
 flag: flagCustomProperties
-platforms:
-  - name: .NET
-    conditions:
-      - group:
-          name: All Custom Properties
-        value: true
-    value: false
+conditions:
+  - group:
+      name: All Custom Properties
+    value: true
+value: false
