@@ -8,9 +8,8 @@ availableValues:
   - White
   - Green
   - Blue
-platforms:
-  conditions:
-    - group:
-        name: TG variant dep with context
-      value: Green
-  value: []
+conditions:
+  - group:
+      name: TG variant dep with context
+    value: Green
+value: []
