@@ -8,11 +8,9 @@ availableValues:
   - White
   - Green
   - Blue
-platforms:
-  - name: PHP
-    conditions:
-      - dependency:
-          flag: flagColorsForDependency
-          value: Green
-        value: Yellow
-    value: []
+conditions:
+  - dependency:
+      flag: flagColorsForDependency
+      value: Green
+    value: Yellow
+value: []
