@@ -3,10 +3,8 @@
 type: experiment
 name: flag dependent
 flag: flagDependent
-platforms:
-  - name: .NET
-    conditions:
-      - dependency:
-          flag: flagForDependency
-          value: 'true'
-    value: true
+conditions:
+  - dependency:
+      flag: flagForDependency
+      value: 'true'
+value: true
