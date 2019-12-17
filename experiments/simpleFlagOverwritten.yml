@@ -3,6 +3,4 @@
 type: experiment
 name: simple flag overwritten
 flag: simpleFlagOverwritten
-platforms:
-  - name: .NET
-    value: false
+value: false
