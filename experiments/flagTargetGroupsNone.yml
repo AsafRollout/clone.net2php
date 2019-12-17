@@ -3,13 +3,11 @@
 type: experiment
 name: flag target groups none
 flag: flagTargetGroupsNone
-platforms:
-  - name: .NET
-    conditions:
-      - group:
-          operator: nor
-          name:
-            - TG operand 1
-            - TG operand 2
-        value: true
-    value: false
+conditions:
+  - group:
+      operator: nor
+      name:
+        - TG operand 1
+        - TG operand 2
+    value: true
+value: false
