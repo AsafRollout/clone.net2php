@@ -1,5 +1,0 @@
-type: target-group
-name: TG for Var with Context
-conditions:
-  - operator: is-true
-    property: boolPropTargetGroupForVariant
