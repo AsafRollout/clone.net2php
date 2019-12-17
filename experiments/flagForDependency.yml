@@ -3,10 +3,8 @@
 type: experiment
 name: flag for dependency
 flag: flagForDependency
-platforms:
-  - name: .NET
-    conditions:
-      - group:
-          name: TG for Dependency
-        value: true
-    value: false
+conditions:
+  - group:
+      name: TG for Dependency
+    value: true
+value: false
