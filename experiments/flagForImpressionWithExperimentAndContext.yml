@@ -3,6 +3,4 @@
 type: experiment
 name: flag for impression with experiment and context
 flag: flagForImpressionWithExperimentAndContext
-platforms:
-  - name: .NET
-    value: true
+value: true
