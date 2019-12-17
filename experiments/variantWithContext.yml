@@ -7,10 +7,8 @@ availableValues:
   - red
   - green
   - blue
-platforms:
-  - name: .NET
-    conditions:
-      - group:
-          name: TG for Var with Context
-        value: blue
-    value: []
+conditions:
+  - group:
+      name: TG for Var with Context
+    value: blue
+value: []
